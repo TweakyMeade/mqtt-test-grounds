@@ -1,6 +1,4 @@
-import time
-import dotenv, os, datetime
-import paho.mqtt.client as mqtt
+import time, dotenv, os, datetime, paho.mqtt.client as mqtt
 
 dotenv.load_dotenv()
 mqttHost = str(os.getenv("mqttHost"))
